@@ -87,16 +87,16 @@ $subpaceint = floor($subpace);
 $subpacedec = round($subpace - $subpaceint, 2);
 $subpace60 = $subpacedec*60;
 
+echo 'subpacedec is' . $subpacedec . '.';
 
-
-echo 'Your pace per mile should be ' . $subpaceint . ':' . $subpace60 . '.'
-
-
-
-
-
-
+echo 'Your pace per mile should be ' . $subpaceint . ':' . $subpace60 . '.';
 ?>
+
+
+
+
+
+
 
 
 
