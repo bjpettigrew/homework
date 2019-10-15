@@ -64,12 +64,18 @@
          <h1>PACE CALCULATOR</h1>
 <?php
 
+function timegoal($a=0, $b=0) {
+    return ($a+$b);
+}
+
+
 $hours = $_POST['hours']*60;
 $mins = $_POST['mins'];
 
 $timegoal = $hours + $mins;
 
-echo $timegoal;
+echo 'Time Goal In Minutes';
+echo timegoal($hours+$mins);
 
 ?>
 
