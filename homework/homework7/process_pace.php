@@ -61,6 +61,11 @@
        <div id="form_box">
          <img src="https://res.cloudinary.com/bayleigh/image/upload/v1571104735/pacesetter/marathon_tqjtsd.jpg" alt="marathon runners" width="45%">
 
+
+
+
+
+
          <h1>PACE CALCULATOR</h1>
 <?php
 
@@ -77,6 +82,10 @@ $mins = $_POST['mins'];
 
 
 $distance = $_POST['miles'];
+
+if $distance == 0 {
+    echo '<h2>You forgot to choose your type of race.</h2>'
+}
 
 //echo timegoal($hours+$mins)/$distance;
 
