@@ -69,7 +69,7 @@ $mins = $_POST['mins'];
 
 $timegoal = $hours + $mins;
 
-echo '<h2>Total Time Goal:</h2>' $timegoal;
+echo '<h2>Total Time Goal:' $timegoal '</h2>';
 
 ?>
 
