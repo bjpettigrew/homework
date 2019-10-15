@@ -82,7 +82,7 @@ $distance = $_POST['miles'];
 
 //echo 'Your distance is' . $distance . 'miles.';
 
-$subpace = timegoal($hours+$mins)/$distance;
+$subpace = timegoal($hours, $mins)/$distance;
 $subpaceint = floor($subpace);
 $subpacedec = $subpace - $subpaceint;
 $subpace60 = $subpacedec*60;
