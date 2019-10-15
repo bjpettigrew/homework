@@ -89,7 +89,7 @@ $subpace60 = $subpacedec*60;
 
 
 
-echo 'Your pace per mile should be ' . $subpaceint . ':' $subpace60;
+echo 'Your pace per mile should be ' . $subpaceint . ':' . $subpace60 . '.'
 
 
 
