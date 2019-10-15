@@ -92,6 +92,12 @@ $subpace60 = round($subpacedec*60, 0);
 
 
 echo '<h2>Your pace per mile should be ' . $subpaceint . ':' . $subpace60 . '.</h2>';
+
+echo '<p><h3>Quarter-mark: ' . $subpace60*2 . '.</h3></p>';
+
+
+
+
 ?>
 
 
