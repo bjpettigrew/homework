@@ -56,6 +56,24 @@
 
     </style>
   </head>
+   <body>
+    <div id="container1">
+       <div id="form_box">
+         <img src="https://res.cloudinary.com/bayleigh/image/upload/v1571104735/pacesetter/marathon_tqjtsd.jpg" alt="marathon runners" width="45%">
+
+         <h1>PACE CALCULATOR</h1>
+       </div>
+    </div>
+  </body>
+
+  <footer>
+    <p>Bayleigh Pettigrew COSW30 &copy2019</p>
+  </footer>
+
+
+
+
+
 
 
 
@@ -71,3 +89,5 @@ echo '<h2>Total Time Goal: $hours+$mins</h2>';
 
 
 ?>
+
+</html>
