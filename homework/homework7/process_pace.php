@@ -83,9 +83,7 @@ $mins = $_POST['mins'];
 
 
 $distance = $_POST['miles'];
-$quarterdist = $distance*.25;
-$halfdist = $distance*.5;
-$threeqdist = $distance*.75;
+
 
 
 
@@ -98,13 +96,7 @@ $subpace60 = round($subpacedec*60, 0);
 
 
 
-echo '<h2>Your pace per mile should be ' . $subpaceint . ':' . $subpace60 . '.</h2>';
-
-echo '<p><h3>Quarter-mark: ' . $subpaceint . ':' . $subpace60*2 . '.</h3></p>';
-
-echo '<p><h3>Halfway-mark:' . round($subpaceint*$halfdist, 0) . ':' . round($subpace60*$halfdist, 0);
-
-
+echo '<h2>Your pace per mile should be ' . $subpaceint . ':' . $subpace60 . 'minutes.</h2>';
 
 
 ?>
