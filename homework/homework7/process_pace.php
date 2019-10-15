@@ -72,10 +72,13 @@ function timegoal($a=0, $b=0) {
 $hours = $_POST['hours']*60;
 $mins = $_POST['mins'];
 
-$timegoal = $hours + $mins;
+//echo timegoal($hours+$mins);
 
-echo 'Time Goal In Minutes';
-echo timegoal($hours+$mins);
+$distance = $_POST['miles'];
+
+echo 'Your distance is' . $distance . 'miles.';
+
+
 
 ?>
 
