@@ -74,9 +74,13 @@ $mins = $_POST['mins'];
 
 //echo timegoal($hours+$mins);
 
+
+
 $distance = $_POST['miles'];
 
-echo 'Your distance is' . $distance . 'miles.';
+echo timegoal($hours+$mins)/$distance;
+
+//echo 'Your distance is' . $distance . 'miles.';
 
 
 
