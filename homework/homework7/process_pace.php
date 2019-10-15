@@ -89,7 +89,7 @@ $subpace60 = round($subpacedec*60, 0);
 
 
 
-echo 'Your pace per mile should be ' . $subpaceint . ':' . $subpace60 . '.';
+echo '</h2>Your pace per mile should be ' . $subpaceint . ':' . $subpace60 . '.</h2>';
 ?>
 
 
