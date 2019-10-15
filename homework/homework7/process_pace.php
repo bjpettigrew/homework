@@ -83,9 +83,9 @@ $mins = $_POST['mins'];
 
 $distance = $_POST['miles'];
 
-if $distance == NULL {
+//if $distance == NULL {
     echo '<h2>You forgot to choose your type of race.</h2>'
-}
+//}
 
 //echo timegoal($hours+$mins)/$distance;
 
