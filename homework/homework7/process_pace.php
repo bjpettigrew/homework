@@ -77,17 +77,10 @@ function timegoal($a=0, $b=0) {
 $hours = $_POST['hours']*60;
 $mins = $_POST['mins'];
 
-//echo timegoal($hours+$mins);
-
-
 
 $distance = $_POST['miles'];
 
-//if $distance == NULL {
-    echo '<h2>You forgot to choose your type of race.</h2>'
-//}
 
-//echo timegoal($hours+$mins)/$distance;
 
 //echo 'Your distance is' . $distance . 'miles.';
 
