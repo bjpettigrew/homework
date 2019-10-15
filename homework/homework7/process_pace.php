@@ -85,9 +85,9 @@ $distance = $_POST['miles'];
 $subpace = timegoal($hours, $mins)/$distance;
 $subpaceint = floor($subpace);
 $subpacedec = round($subpace - $subpaceint, 2);
-$subpace60 = $subpacedec*60;
+$subpace60 = round($subpacedec*60, 0);
 
-echo 'subpacedec is' . $subpacedec . '.';
+
 
 echo 'Your pace per mile should be ' . $subpaceint . ':' . $subpace60 . '.';
 ?>
