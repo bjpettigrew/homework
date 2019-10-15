@@ -72,7 +72,7 @@
            <p>
            <label for="race_type">Type of race:</label>&nbsp &nbsp
          <select name="miles" id="miles" required>
-           <option disable select value><p>--Choose type of race--</option>
+           <option value=""><p>--Choose type of race--</option>
            <option value="26.2">Marathon</options>
            <option value="13.1">Half-Marathon</options>
            <option value="9.3">15k</options>
