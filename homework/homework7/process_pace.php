@@ -84,12 +84,12 @@ $distance = $_POST['miles'];
 
 $subpace = timegoal($hours+$mins)/$distance;
 $subpaceint = floor($subpace);
-$subpacedec = $subpace - $subpaceint
+$subpacedec = $subpace - $subpaceint;
 
 
 
 
-echo $subpacedec
+echo 'just decimal: ' . $subpacedec;
 
 
 
