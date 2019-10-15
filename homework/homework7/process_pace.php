@@ -69,7 +69,7 @@ $mins = $_POST['mins'];
 
 $timegoal = $hours + $mins;
 
-echo $hours + $mins;
+echo $timegoal;
 
 ?>
 
