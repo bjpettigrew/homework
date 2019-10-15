@@ -89,7 +89,7 @@ $subpace60 = $subpacedec*60;
 
 
 
-echo 'Your pace per mile should be ' . $subpaceint . ':' ($subpace60, 0, PHP_ROUND_HALF_UP);
+echo 'Your pace per mile should be ' . $subpaceint . ':' $subpace60;
 
 
 
