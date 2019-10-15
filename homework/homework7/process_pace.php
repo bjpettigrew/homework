@@ -83,7 +83,7 @@ $mins = $_POST['mins'];
 
 $distance = $_POST['miles'];
 
-if $distance == 0 {
+if $distance == NULL {
     echo '<h2>You forgot to choose your type of race.</h2>'
 }
 
