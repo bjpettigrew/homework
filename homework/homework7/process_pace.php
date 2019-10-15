@@ -62,6 +62,23 @@
          <img src="https://res.cloudinary.com/bayleigh/image/upload/v1571104735/pacesetter/marathon_tqjtsd.jpg" alt="marathon runners" width="45%">
 
          <h1>PACE CALCULATOR</h1>
+<?php
+
+$hours = $_POST['hours']*60;
+$mins = $_POST['mins'];
+
+$timegoal = $hours + $mins;
+
+echo '<h2>Total Time Goal: $timegoal</h2>';
+
+?>
+
+
+
+
+
+
+
        </div>
     </div>
   </body>
@@ -80,12 +97,7 @@
 <?php
 
 
-$hours = $_POST['hours']*60;
-$mins = $_POST['mins'];
 
-$timegoal = $hours + $mins;
-
-echo '<h2>Total Time Goal: $hours+$mins</h2>';
 
 
 ?>
